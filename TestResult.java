@@ -33,5 +33,14 @@ public class TestResult {
         
         private int val1 = 5;
         private int val2 =6;
+
+        @Test
+        public void assertTrue() {
+            assertTrue(val1 < val2);
+        }
+        @Test
+        public void TrueTest(){
+            MyTrueTest obj1 = new MyTrueTest();
+        }
     }
 }
